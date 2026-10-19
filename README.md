@@ -4,7 +4,7 @@
 
 FloodLab connects physics-based flood modelling with geospatial analysis to help planners explore **where flooding may occur, when roads could become unavailable, and whether affected areas remain reachable**.
 
-The reference case is the **Tehri Dam–Bhagirathi River system in Uttarakhand, India**, developed in the SIH 2026 disaster-management context.
+The reference case is the **Tehri Dam–Bhagirathi River system in Uttarakhand, India**
 
 > **Project status:** Research and emergency-planning prototype. The catastrophic Tehri breach is a hypothetical scenario, not a historical event or an operational forecast. The current core is physics-based; ML-assisted scenario exploration is a proposed extension.
 
