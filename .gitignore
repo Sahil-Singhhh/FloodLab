@@ -1,0 +1,99 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+*.log
+
+# Python / Backend
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.sqlite
+*.db
+
+# Data and Simulation Storage
+storage/
+cache/
+backend/storage/
+*.tif
+*.tiff
+*.zip
+data/raw/hydrosheds/
+data/raw/gee/
+data/raw/admin/*.geojson
+data/raw/osm/chunks/
+data/raw/discharge/*.csv
+FloodLab_Data_Acquisition_Pack/
+data/cache/*
+!data/cache/.gitkeep
+
+# Environment / OS
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+backend/.env
+backend/.env.local
+backend/.env.*.local
+.DS_Store
+Thumbs.db
+*.pack
+dualsphysics_bin/
+data/processed/tehri_simulations/dualsphysics/setup/DualSPHysics/
+data/processed/tehri_simulations/delft3d/setup/Delft3D/
+*.vtk
+*.asc
+*.geojson
+*.bi4
+*.out
+*.mass
+*.wd
+*.max
+*.inittm
+*.maxtm
+*.mxe
+*.totaltm
+*Case_Tehri_Breach_out/*
+
+# Runtime scenario/run artifacts (Phase 1B / Phase 6)
+data/scenarios/*
+!data/scenarios/.gitkeep
+data/runs/*/run_*/
+backend/data/
+
+# Local credential files
+secrets/
+*.service-account.json
+
+# Scratch directory
+scratch/
+
+# Local Python environments and editor backups
+.venv/
+venv/
+*.bak
+*.orig
+*.rej
+*~
+
+# Generated hydraulic grids and particle metadata (summaries stay versioned)
+*.elev
+*.dem
+*.ibi4
+*.obi4
+*.vrt
+*.asc.aux.xml
+*_ascii.prj
+data/processed/tehri_simulations/lisflood_fp/setup/LISFLOOD-FP-8.1/
